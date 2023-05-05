@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "morenugget",
+  "version": "${version}",
+
+  "name": "More Nuggets",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "swutm!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/morenugget/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.swutm.morenugget.morenugget"
+    ],
+    "client": [
+      "net.swutm.morenugget.morenuggetClient"
+    ]
+  },
+  "mixins": [
+    "morenugget.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
