@@ -244,7 +244,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_nuggets",
+          "name": "morenugget:copper_nuggets",
           "weight": 10,
           "functions": [
             {
